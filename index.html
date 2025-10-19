@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YouTube Grid — Lista de vídeos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon" aria-label="menu">☰</button>
+    <div class="logo">YouTube</div>
+    <form class="search" role="search">
+      <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" />
+      <button class="icon" aria-label="buscar">🔍</button>
+    </form>
+    <nav class="actions">
+      <button class="icon" aria-label="upload">⬆️</button>
+      <button class="icon" aria-label="notificações">🔔</button>
+      <div class="avatar" aria-hidden="true"></div>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="item active">Início</a>
+      <a class="item">Explorar</a>
+      <a class="item">Inscrições</a>
+      <a class="item">Biblioteca</a>
+      <a class="item">Histórico</a>
+    </aside>
+
+    <main class="content">
+      <section class="videos-grid">
+        <!-- Duplique os cards abaixo para popular -->
+        <article class="video-card">
+          <div class="thumb" aria-label="thumbnail"></div>
+          <div class="video-info">
+            <div class="channel-avatar"></div>
+            <div class="meta">
+              <h3 class="title">Geração Tech Unimed - Ciência de Dados</h3>
+              <p class="sub">DigitalInnovationOne • 2,1 mi visualizações • há 3 dias</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="thumb"></div>
+          <div class="video-info">
+            <div class="channel-avatar"></div>
+            <div class="meta">
+              <h3 class="title">Scrum Talks</h3>
+              <p class="sub">DIO • 1,6 mi visualizações • há 3 dias</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="thumb"></div>
+          <div class="video-info">
+            <div class="channel-avatar"></div>
+            <div class="meta">
+              <h3 class="title">Machine Learning Avançado - Fast Track</h3>
+              <p class="sub">DIO • 1,7 mi visualizações • há 4 dias</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="thumb"></div>
+          <div class="video-info">
+            <div class="channel-avatar"></div>
+            <div class="meta">
+              <h3 class="title">Global Skills #2 - Project Planning</h3>
+              <p class="sub">DIO • 2,1 mi visualizações • há 2 dias</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
